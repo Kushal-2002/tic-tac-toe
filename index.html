@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="outer">
+        <div class="container">
+            <h1>Tic Tac Toe</h1>
+            <div class="row">
+                <input type="text" id="box1" class="box" onclick="func1(),myFunc()" />
+                <input type="text" id="box2" class="box" onclick="func2(),myFunc()" />
+                <input type="text" id="box3" class="box" onclick="func3(),myFunc()" />
+            </div>
+        <div class="row">
+          <input type="text" class="box" id="box4" onclick="func4(),myFunc()" />
+          <input type="text" class="box" id="box5" onclick="func5(),myFunc()" />
+          <input type="text" class="box" id="box6" onclick="func6(),myFunc()" />
+        </div>
+        <div class="row">
+            <input type="text" class="box" id="box7" onclick="func7(),myFunc()" />
+            <input type="text" class="box" id="box8" onclick="func8(),myFunc()" />
+            <input type="text" class="box" id="box9" onclick="func9(),myFunc()" />
+        </div>
+        <div id="result"></div>
+        <button id="btn" onclick="reset()">Reset</button>
+    </div>
+    <div class="score">
+      <div id="p1_stat" class="stat">0</div>
+      <div id="p2_stat" class="stat">0</div>
+    </div>
+</div>
+</body>
+</html>

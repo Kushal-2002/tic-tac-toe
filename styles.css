@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(85, 8, 145);
+}
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.row
+{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    padding-left: 70px;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+.box:hover{
+    background-color: rgb(32, 252, 8);
+}
+#result{
+    font-size: 100px;
+}
+input:disabled{
+    background-color: rgb(218, 215, 211);
+}
+#btn{
+    background-color: bisque;
+    font-size: 25px;
+    margin: 12px;
+    padding:12px;
+    cursor: pointer;
+    border-radius: 12%;
+}
+h1{
+    color: white;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.stat{
+    font-size: 100px;
+    margin: 12px;
+    color: wheat;
+}
+.outer{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
